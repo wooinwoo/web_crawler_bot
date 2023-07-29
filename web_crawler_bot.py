@@ -4,6 +4,8 @@ from urllib.parse import urljoin
 from urllib.robotparser import RobotFileParser
 from queue import Queue
 
+print("hello")
+
 def web_crawler_bot(url, depth=2):
     visited_urls = set()  # 이미 방문한 URL을 저장하는 집합
     robot_parser = RobotFileParser()  # Robots.txt 파일을 파싱하기 위한 RobotFileParser 객체 생성
